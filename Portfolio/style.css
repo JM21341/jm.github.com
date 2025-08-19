@@ -121,15 +121,30 @@ section#main .mainContent{
     float: right;
     padding-right: 5em;
     font-size: 40px;
+    flex: 1;
 }
 
 .mainContent .aboutContent h2{
     float: right;
+    flex: 2;
 }
 
-.mainContent .aboutContent p{
-    float: right;
-    font-family: 'Oswald';
+.mainContent .anchorBtns{
+    display: flex;
+    align-items: center;
+    position: static;
+    margin-top: 50px;
+    margin-left: auto;
+    float: center;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.socialIcons nav a img{
+    width: 20px;
+    height: 20px
 }
 
 /* -~- */
